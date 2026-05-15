@@ -1,0 +1,11 @@
+# Ignore environment variables
+.env
+
+# Ignore Local Go Binaries and test files
+*.exe
+*.test
+bin/
+
+#Ignore IDE specific folders
+.idea/
+.vscode/
