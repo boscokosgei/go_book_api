@@ -1,0 +1,14 @@
+# Ignore local binaries
+*.exe
+*.test
+*__debug_bin
+
+# Ignore git history and IDE configs
+.git
+.gitignore
+.idea
+.vscode
+
+# Ignore local builds or vendor folders (if you aren't explicitly using vendoring)
+vendor/
+bin/
